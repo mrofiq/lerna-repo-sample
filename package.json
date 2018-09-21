@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  },
+  "scripts": {
+    "dev": "lerna run dev --parallel --scope \"@bmd/{landing-app,apa}\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bhinneka/frontend.git"
+  },
+  "author": "Bhinneka Frontend Tech"
+}
